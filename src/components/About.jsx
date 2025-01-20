@@ -30,44 +30,40 @@ const AboutSection = () => {
           <div className="line"></div>
         </div>
         <p className="section-sub-text about-sub-text zoom_in">
-          Hi, my name is <span>Jessica Biogi</span> and I began using WordPress
-          when first began. I've spent most of my waking hours for the last ten
-          years designing, programming and operating WordPress sites go beyond
-          with exclusive designer. Apart from this I love to travel, mentor
-          designers, review design portfolios & read books on everything related
-          to design. I have also given design talks in various educational
-          institutions. So I love creating creative content, and you can find
-          most of my works here.
+          Hi, my name is <span>Akram</span>.I started working with WordPress two years ago and have spent countless hours designing,
+          programming, and operating WordPress websites that go above and beyond standard expectations.Beyond web design, 
+          I’m passionate about travel, mentoring aspiring designers, reviewing design portfolios,
+          and reading books on all things design. I also enjoy creating creative content that inspires and connects with others.
         </p>
         <div className="about-detail-main">
           <p className="about-detail">Name</p>
-          <p className="about-detail-info">Jessica Biogi</p>
+          <p className="about-detail-info">Akram Ibne Mahbub</p>
         </div>
         <div className="about-detail-main">
           <p className="about-detail">Nationality</p>
-          <p className="about-detail-info">USA</p>
+          <p className="about-detail-info">Bangladesh</p>
         </div>
         <div className="about-detail-main">
           <p className="about-detail">Phone</p>
           <p
             className="about-detail-info email"
-            onClick="location.href='tel:(+1)2345678899'"
+            onClick="location.href='tel:(+880)1734424799'"
           >
-            (+1) 234 567 8899
+            (+880)1734424799
           </p>
         </div>
         <div className="about-detail-main">
           <p className="about-detail">Email</p>
           <p
             className="about-detail-info email"
-            onClick="location.href='mailto:hello@biogi.com'"
+            onClick="location.href='mailto:akrammahbub10@gmail.com'"
           >
-            hello@biogi.com
+            akrammahbub10@gmail.com
           </p>
         </div>
         <div className="about-detail-main">
           <p className="about-detail">Experience</p>
-          <p className="about-detail-info">6+ years</p>
+          <p className="about-detail-info">2+ years</p>
         </div>
         <div className="about-detail-main">
           <p className="about-detail">Freelance</p>

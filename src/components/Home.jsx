@@ -10,7 +10,6 @@ import ResumeSvg from "../assets/images/svg/resume-svg.svg";
 import ServicesSvg from "../assets/images/svg/services-svg.svg";
 import PortfolioSvg from "../assets/images/svg/portfolio-svg.svg";
 import PricingSvg from "../assets/images/svg/pricing-svg.svg";
-import BlogSvg from "../assets/images/svg/blog-svg.svg";
 import ContactSvg from "../assets/images/svg/contact-svg.svg";
 import clientImg1 from "../assets/images/clients-img1.jpg";
 import clientImg2 from "../assets/images/clients-img2.jpg";
@@ -32,14 +31,13 @@ import Resume from "./Resume";
 import Services from "./Services";
 import Portfolio from "./Portfolio";
 import Pricing from "./Pricing";
-import Blog from "./Blog";
 import Contact from "./Contact";
 import $ from "jquery";
 import CV from "../assets/pdf/olivia_resume.pdf";
 import { Link } from "react-router-dom";
 const Home = () => {
   //Text
-  const firstTexts = ["Designer", "Developer", "Freelancer"];
+  const firstTexts = [ "Developer", "Freelancer"];
   const secondTexts = [
     "Freelancer",
     "Back-End Web Developer",
@@ -156,7 +154,7 @@ const Home = () => {
           </h1>
           <h2 className="designer fade_up">{firstTexts[firstTextIndex]}</h2>
           <div className="profile-media-icons-main fade_up">
-            <Link to="mailto:hello@biogi.com" className="profile-media-icons">
+            <Link to="mailto:akrammahbub10@gmail.com" className="profile-media-icons">
               <img src={EmailSvg} alt="email-svg" />
             </Link>
             <Link to="https://www.behance.net" className="profile-media-icons">
@@ -258,20 +256,6 @@ const Home = () => {
             </li>
             <li
               className={`active-menu-action ${
-                activeLink === "blog" ? "active" : ""
-              }`}
-            >
-              <a
-                className="fade_right"
-                href="#blog"
-                onClick={(e) => handleClick(e, "blog")}
-              >
-                <img src={BlogSvg} alt="home-svg" />
-                Blog
-              </a>
-            </li>
-            <li
-              className={`active-menu-action ${
                 activeLink === "contact" ? "active" : ""
               }`}
               id="contact-line"
@@ -330,8 +314,8 @@ const Home = () => {
                 {secondTexts[secondTextIndex]}
               </h3>
               <p className="best fade_down">
-                We appreciate your trust greatly our clients choose us & our
-                products because they know we are the best.
+                Passionate about crafting efficient and user-friendly web applications, specializing in:
+                HTML & CSS,Tailwind CSS,Bootstrap CSS,PHP (Laravel),Vue.js,MYsql etc.
               </p>
               <div className="section-one-btns-main fade_down">
                 <div className="wrapper">
@@ -356,7 +340,7 @@ const Home = () => {
               <img
                 className="jessica-main-img zoom_in"
                 src={AkramMainImg}
-                alt="jessica-main-img"
+                alt="Akram-main-img"
               />
               <div className="worked-box">
                 <p className="worked-more">Worked with more than 100 people</p>
