@@ -152,7 +152,7 @@ const Home = () => {
         <div className="profile-img-main">
           <img className="zoom_in" src={ProfileImg} alt="profile-img" />
           <h1 className="fade_up">
-            Jessica <span>Biogi</span>
+            Akram <span>Ibne Mahbub</span>
           </h1>
           <h2 className="designer fade_up">{firstTexts[firstTextIndex]}</h2>
           <div className="profile-media-icons-main fade_up">
@@ -324,7 +324,7 @@ const Home = () => {
           <div className="row">
             <div className="col-xxl-6 col-lg-6">
               <h2 className="jessica-main-text zoom_in">
-                Jessica <span>Biogi</span>
+                Akram <span>Ibne Mahbub</span>
               </h2>
               <h3 className="back-End-dev designer2">
                 {secondTexts[secondTextIndex]}
