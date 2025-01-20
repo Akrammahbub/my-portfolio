@@ -32,14 +32,13 @@ import Resume from "./Resume";
 import Services from "./Services";
 import Portfolio from "./Portfolio";
 import Pricing from "./Pricing";
-import Blog from "./Blog";
 import Contact from "./Contact";
 import $ from "jquery";
 import CV from "../assets/pdf/olivia_resume.pdf";
 import { Link } from "react-router-dom";
 const Home = () => {
   //Text
-  const firstTexts = ["Designer", "Developer", "Freelancer"];
+  const firstTexts = ["Developer", "Freelancer"];
   const secondTexts = [
     "Freelancer",
     "Back-End Web Developer",
@@ -258,20 +257,6 @@ const Home = () => {
             </li>
             <li
               className={`active-menu-action ${
-                activeLink === "blog" ? "active" : ""
-              }`}
-            >
-              <a
-                className="fade_right"
-                href="#blog"
-                onClick={(e) => handleClick(e, "blog")}
-              >
-                <img src={BlogSvg} alt="home-svg" />
-                Blog
-              </a>
-            </li>
-            <li
-              className={`active-menu-action ${
                 activeLink === "contact" ? "active" : ""
               }`}
               id="contact-line"
@@ -324,14 +309,14 @@ const Home = () => {
           <div className="row">
             <div className="col-xxl-6 col-lg-6">
               <h2 className="jessica-main-text zoom_in">
-                Jessica <span>Biogi</span>
+                Akram  <span>Ibne Mahbub</span>
               </h2>
               <h3 className="back-End-dev designer2">
                 {secondTexts[secondTextIndex]}
               </h3>
               <p className="best fade_down">
-                We appreciate your trust greatly our clients choose us & our
-                products because they know we are the best.
+              Passionate about crafting efficient and user-friendly web applications, specializing in:
+              PHP (Laravel),HTML & CSS,Tailwind CSS,Vue.js
               </p>
               <div className="section-one-btns-main fade_down">
                 <div className="wrapper">
