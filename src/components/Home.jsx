@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import ProfileImg from "../assets/images/profile-img.png";
+import ProfileImg from "../assets/images/profile-img.jpg";
 import EmailSvg from "../assets/images/svg/email-svg.svg";
 import BehanceSvg from "../assets/images/svg/behance-svg.svg";
 import DribleSvg from "../assets/images/svg/drribale-svg.svg";
