@@ -16,7 +16,7 @@ import clientImg1 from "../assets/images/clients-img1.jpg";
 import clientImg2 from "../assets/images/clients-img2.jpg";
 import clientImg3 from "../assets/images/clients-img3.jpg";
 import clientImg4 from "../assets/images/clients-img4.jpg";
-import JessicaMainImg from "../assets/images/jessica-main-img.png";
+import AkramMainImg from "../assets/images/akram-main-img.jpg";
 import CircularImg from "../assets/images/circular-img.png";
 import FlowerImg from "../assets/images/flower.png";
 import BrandLogo1 from "../assets/images/brand-logo1.png";
@@ -355,7 +355,7 @@ const Home = () => {
               />
               <img
                 className="jessica-main-img zoom_in"
-                src={JessicaMainImg}
+                src={AkramMainImg}
                 alt="jessica-main-img"
               />
               <div className="worked-box">
