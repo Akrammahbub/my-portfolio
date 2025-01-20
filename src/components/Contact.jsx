@@ -72,7 +72,7 @@ const Contact = () => {
             <div>
               <p className="contact-email-text">EMAIL</p>
               <p className="contact-email">
-                <a href="mailto:akrammahbub10@gmail.com">akrammahbub10@gmail.com</a>
+                <a href="mailto:hello@biogi.com">hello@biogi.com</a>
               </p>
             </div>
           </div>
@@ -94,7 +94,7 @@ const Contact = () => {
             <div>
               <p className="contact-email-text">PHONE</p>
               <p className="contact-email">
-                <a href="tel:(+880)1734424799">(+880)1734424799</a>
+                <a href="tel:+12345678899">+1 234 567 8899</a>
               </p>
             </div>
           </div>
@@ -176,7 +176,7 @@ const Contact = () => {
         <div className="footer">
           © 2024 | All rights reserved by
           <span>
-            <a href="">Akram</a>
+            <a href="https://1.envato.market/website-portfolio">The_Krishna</a>
           </span>
         </div>
       </section>

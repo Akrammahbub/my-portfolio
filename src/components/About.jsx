@@ -30,7 +30,7 @@ const AboutSection = () => {
           <div className="line"></div>
         </div>
         <p className="section-sub-text about-sub-text zoom_in">
-          Hi, my name is <span>Akram</span> and I began using WordPress
+          Hi, my name is <span>Jessica Biogi</span> and I began using WordPress
           when first began. I've spent most of my waking hours for the last ten
           years designing, programming and operating WordPress sites go beyond
           with exclusive designer. Apart from this I love to travel, mentor
@@ -41,33 +41,33 @@ const AboutSection = () => {
         </p>
         <div className="about-detail-main">
           <p className="about-detail">Name</p>
-          <p className="about-detail-info">Akram</p>
+          <p className="about-detail-info">Jessica Biogi</p>
         </div>
         <div className="about-detail-main">
           <p className="about-detail">Nationality</p>
-          <p className="about-detail-info">Bangladesh</p>
+          <p className="about-detail-info">USA</p>
         </div>
         <div className="about-detail-main">
           <p className="about-detail">Phone</p>
           <p
             className="about-detail-info email"
-            onClick="location.href='tel:(+880)1734424799'"
+            onClick="location.href='tel:(+1)2345678899'"
           >
-            (+880) 1734424799
+            (+1) 234 567 8899
           </p>
         </div>
         <div className="about-detail-main">
           <p className="about-detail">Email</p>
           <p
             className="about-detail-info email"
-            onClick="location.href='akrammahbub10@gmail.com'"
+            onClick="location.href='mailto:hello@biogi.com'"
           >
-            akrammahbub10@gmail.com
+            hello@biogi.com
           </p>
         </div>
         <div className="about-detail-main">
           <p className="about-detail">Experience</p>
-          <p className="about-detail-info">2+ years</p>
+          <p className="about-detail-info">6+ years</p>
         </div>
         <div className="about-detail-main">
           <p className="about-detail">Freelance</p>
@@ -75,7 +75,7 @@ const AboutSection = () => {
         </div>
         <div className="about-detail-main">
           <p className="about-detail">Skype</p>
-          <p className="about-detail-info">akram.mahbub</p>
+          <p className="about-detail-info">hello.biogi</p>
         </div>
         <div className="about-detail-main">
           <p className="about-detail">Language</p>
