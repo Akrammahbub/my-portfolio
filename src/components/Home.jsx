@@ -308,7 +308,7 @@ const Home = () => {
           <div className="row">
             <div className="col-xxl-6 col-lg-6">
               <h2 className="jessica-main-text zoom_in">
-                Akram <span>Ibne Mahbub</span>
+                Akram <span><br>Mahbub</br></span>
               </h2>
               <h3 className="back-End-dev designer2">
                 {secondTexts[secondTextIndex]}
