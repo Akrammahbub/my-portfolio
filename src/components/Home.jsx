@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
-import ProfileImg from "../assets/images/profile-img.png";
+import ProfileImg from "../assets/images/profile-img.jpg";
 import EmailSvg from "../assets/images/svg/email-svg.svg";
-import BehanceSvg from "../assets/images/svg/behance-svg.svg";
-import DribleSvg from "../assets/images/svg/drribale-svg.svg";
-import MediumSvg from "../assets/images/svg/medium-svg.svg";
+import WhatsappSvg from "../assets/images/svg/whatsapp-svg.svg";
+import LinkedinSvg from "../assets/images/svg/linkedin-svg.svg";
+import UpworkSvg from "../assets/images/svg/upwork-svg.svg";
 import HomeSvg from "../assets/images/svg/home-svg.svg";
 import AboutSvg from "../assets/images/svg/about-svg.svg";
 import ResumeSvg from "../assets/images/svg/resume-svg.svg";
@@ -16,7 +16,7 @@ import clientImg1 from "../assets/images/clients-img1.jpg";
 import clientImg2 from "../assets/images/clients-img2.jpg";
 import clientImg3 from "../assets/images/clients-img3.jpg";
 import clientImg4 from "../assets/images/clients-img4.jpg";
-import JessicaMainImg from "../assets/images/jessica-main-img.png";
+import AkramMainImg from "../assets/images/akram-main-img.jpg";
 import CircularImg from "../assets/images/circular-img.png";
 import FlowerImg from "../assets/images/flower.png";
 import BrandLogo1 from "../assets/images/brand-logo1.png";
@@ -39,11 +39,11 @@ import CV from "../assets/pdf/olivia_resume.pdf";
 import { Link } from "react-router-dom";
 const Home = () => {
   //Text
-  const firstTexts = ["Designer", "Developer", "Freelancer"];
+  const firstTexts = ["Developer", "Freelancer"];
   const secondTexts = [
     "Freelancer",
-    "Back-End Web Developer",
-    "Full Stack Developer",
+    "Laravel Developer",
+    "Wordpress Developer",
   ];
   const intervalTime = 600;
 
@@ -152,21 +152,21 @@ const Home = () => {
         <div className="profile-img-main">
           <img className="zoom_in" src={ProfileImg} alt="profile-img" />
           <h1 className="fade_up">
-            Jessica <span>Biogi</span>
+            Akram <span>Ibne Mahbub</span>
           </h1>
           <h2 className="designer fade_up">{firstTexts[firstTextIndex]}</h2>
           <div className="profile-media-icons-main fade_up">
-            <Link to="mailto:hello@biogi.com" className="profile-media-icons">
+            <Link to="mailto:akrammahbub10@gmail.com" className="profile-media-icons">
               <img src={EmailSvg} alt="email-svg" />
             </Link>
             <Link to="https://www.behance.net" className="profile-media-icons">
-              <img src={BehanceSvg} alt="behance-svg" />
+              <img src={WhatsappSvg} alt="whatsapp-svg" />
             </Link>
             <Link to="https://dribbble.com" className="profile-media-icons">
-              <img src={DribleSvg} alt="drribale-svg" />
+              <img src={LinkedinSvg} alt="linkedin-svg" />
             </Link>
             <Link to="https://medium.com" className="profile-media-icons">
-              <img src={MediumSvg} alt="medium-svg" />
+              <img src={UpworkSvg} alt="upwork-svg" />
             </Link>
           </div>
         </div>
@@ -323,15 +323,14 @@ const Home = () => {
         <section className="section-one overflow-hidden" id="home">
           <div className="row">
             <div className="col-xxl-6 col-lg-6">
-              <h2 className="jessica-main-text zoom_in">
-                Jessica <span>Biogi</span>
+              <h2 className="akram-main-text zoom_in">
+                Akram <span> Mahbub</span>
               </h2>
               <h3 className="back-End-dev designer2">
                 {secondTexts[secondTextIndex]}
               </h3>
               <p className="best fade_down">
-                We appreciate your trust greatly our clients choose us & our
-                products because they know we are the best.
+              My clients trust me because I consistently deliver the best solutions tailored to their needs.
               </p>
               <div className="section-one-btns-main fade_down">
                 <div className="wrapper">
@@ -354,12 +353,12 @@ const Home = () => {
                 alt="circular-img"
               />
               <img
-                className="jessica-main-img zoom_in"
-                src={JessicaMainImg}
-                alt="jessica-main-img"
+                className="akram-main-img zoom_in"
+                src={AkramMainImg}
+                alt="akram-main-img"
               />
               <div className="worked-box">
-                <p className="worked-more">Worked with more than 100 people</p>
+                <p className="worked-more">Worked with more than 50 people</p>
                 <div className="client-img-main position-relative">
                   <img
                     className="client-img client-img1"
@@ -381,7 +380,7 @@ const Home = () => {
                     src={clientImg4}
                     alt="clients-img4"
                   />
-                  <p className="worked-more worked-more2"> 100+ Clients</p>
+                  <p className="worked-more worked-more2"> 50+ Clients</p>
                 </div>
               </div>
             </div>
