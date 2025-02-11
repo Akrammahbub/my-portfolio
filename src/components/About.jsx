@@ -30,7 +30,7 @@ const AboutSection = () => {
           <div className="line"></div>
         </div>
         <p className="section-sub-text about-sub-text zoom_in">
-          Hi, my name is <span>Akram</span> and I began using WordPress
+          Hi, my name is <span>Jessica Biogi</span> and I began using WordPress
           when first began. I've spent most of my waking hours for the last ten
           years designing, programming and operating WordPress sites go beyond
           with exclusive designer. Apart from this I love to travel, mentor
@@ -41,7 +41,7 @@ const AboutSection = () => {
         </p>
         <div className="about-detail-main">
           <p className="about-detail">Name</p>
-          <p className="about-detail-info">Akram Mahbub</p>
+          <p className="about-detail-info">Jessica Biogi</p>
         </div>
         <div className="about-detail-main">
           <p className="about-detail">Nationality</p>

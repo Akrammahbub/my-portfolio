@@ -16,7 +16,7 @@ import clientImg1 from "../assets/images/clients-img1.jpg";
 import clientImg2 from "../assets/images/clients-img2.jpg";
 import clientImg3 from "../assets/images/clients-img3.jpg";
 import clientImg4 from "../assets/images/clients-img4.jpg";
-import AkramMainImg from "../assets/images/akram-main-img.png";
+import JessicaMainImg from "../assets/images/jessica-main-img.png";
 import CircularImg from "../assets/images/circular-img.png";
 import FlowerImg from "../assets/images/flower.png";
 import BrandLogo1 from "../assets/images/brand-logo1.png";
@@ -152,7 +152,7 @@ const Home = () => {
         <div className="profile-img-main">
           <img className="zoom_in" src={ProfileImg} alt="profile-img" />
           <h1 className="fade_up">
-            Akram <span>Ibne Mahbub</span>
+            Jessica <span>Biogi</span>
           </h1>
           <h2 className="designer fade_up">{firstTexts[firstTextIndex]}</h2>
           <div className="profile-media-icons-main fade_up">
@@ -323,8 +323,8 @@ const Home = () => {
         <section className="section-one overflow-hidden" id="home">
           <div className="row">
             <div className="col-xxl-6 col-lg-6">
-              <h2 className="akram-main-text zoom_in">
-              Akram <span>Ibne Mahbub</span>
+              <h2 className="jessica-main-text zoom_in">
+                Jessica <span>Biogi</span>
               </h2>
               <h3 className="back-End-dev designer2">
                 {secondTexts[secondTextIndex]}
@@ -354,9 +354,9 @@ const Home = () => {
                 alt="circular-img"
               />
               <img
-                className="akram-main-img zoom_in"
-                src={AkramMainImg}
-                alt="akram-main-img"
+                className="jessica-main-img zoom_in"
+                src={JessicaMainImg}
+                alt="jessica-main-img"
               />
               <div className="worked-box">
                 <p className="worked-more">Worked with more than 100 people</p>
