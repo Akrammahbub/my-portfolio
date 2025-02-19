@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import FigmaImg from "../assets/images/figma-img.png";
+import FigmaImg from "../assets/images/html-img.png";
 import PhotoShopImg from "../assets/images/photoshop-img.png";
 import AdobeImg from "../assets/images/adobe-xd-img.png";
 import SketchImg from "../assets/images/sktech-img.png";
@@ -11,7 +11,7 @@ import WinnerAward4 from "../assets/images/winner-award4.png";
 
 const Resume = () => {
   const colors = [
-    "#BCE70C",
+    "#f4642c",
     "#FF759C",
     "#00CC97",
     "#FFDB59",
