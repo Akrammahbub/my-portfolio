@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import FigmaImg from "../assets/images/html-img.png";
+import HtmlImg from "../assets/images/html-img.png";
 import PhotoShopImg from "../assets/images/photoshop-img.png";
 import AdobeImg from "../assets/images/adobe-xd-img.png";
 import SketchImg from "../assets/images/sktech-img.png";
@@ -223,7 +223,7 @@ const Resume = () => {
         </div>
         <div className="design-skill-sub-section">
           <div className="design-skills-img-main flip_up">
-            <img src={FigmaImg} alt="figma-img" />
+            <img src={HtmlImg} alt="html-img" />
             <div className="skill-counter-main">
               <p>94%</p>
               <p>HTML, CSS</p>
