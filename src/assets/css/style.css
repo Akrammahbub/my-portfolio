@@ -180,27 +180,27 @@ ul li {
 
     0%,
     100% {
-        background-color: rgb(0, 204, 151, 24%);
+        background-color: rgba(17,17,17,255);
         filter: blur(250px);
     }
 
     20% {
-        background-color: rgba(255, 0, 0, 0.8);
+        background-color: rgba(51,50,50,255);
         filter: blur(200px);
     }
 
     40% {
-        background-color: rgba(0, 0, 255, 0.8);
+        background-color: rgba(84,85,84,255);
         filter: blur(150px);
     }
 
     60% {
-        background-color: rgba(255, 255, 0, 0.8);
+        background-color: rgba(118,118,119,255);
         filter: blur(200px);
     }
 
     80% {
-        background-color: rgba(0, 255, 0, 22);
+        background-color:rgba(153,153,153,255);
         filter: blur(250px);
     }
 }
